@@ -1,0 +1,36 @@
+{
+  "name": "TheNewProject",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint .",
+    "web": "parcel index.html"
+  },
+  "dependencies": {
+    "react": "16.11.0",
+    "react-dom": "^16.13.1",
+    "react-native": "0.62.2",
+    "react-native-web": "^0.12.2"
+  },
+  "devDependencies": {
+    "@babel/core": "7.9.6",
+    "@babel/runtime": "7.9.6",
+    "@react-native-community/eslint-config": "0.0.5",
+    "babel-jest": "24.9.0",
+    "eslint": "6.8.0",
+    "jest": "24.9.0",
+    "metro-react-native-babel-preset": "0.58.0",
+    "parcel-bundler": "^1.12.4",
+    "react-test-renderer": "16.11.0"
+  },
+  "alias": {
+    "react-native": "react-native-web"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
