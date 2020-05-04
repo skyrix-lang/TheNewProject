@@ -57972,110 +57972,138 @@ var _DeviceEventEmitter = _interopRequireDefault(require("./exports/DeviceEventE
 var _useWindowDimensions = _interopRequireDefault(require("./exports/useWindowDimensions"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-},{"./exports/createElement":"node_modules/react-native-web/dist/exports/createElement/index.js","./exports/findNodeHandle":"node_modules/react-native-web/dist/exports/findNodeHandle/index.js","./exports/processColor":"node_modules/react-native-web/dist/exports/processColor/index.js","./exports/render":"node_modules/react-native-web/dist/exports/render/index.js","./exports/unmountComponentAtNode":"node_modules/react-native-web/dist/exports/unmountComponentAtNode/index.js","./exports/NativeModules":"node_modules/react-native-web/dist/exports/NativeModules/index.js","./exports/AccessibilityInfo":"node_modules/react-native-web/dist/exports/AccessibilityInfo/index.js","./exports/Alert":"node_modules/react-native-web/dist/exports/Alert/index.js","./exports/Animated":"node_modules/react-native-web/dist/exports/Animated/index.js","./exports/AppRegistry":"node_modules/react-native-web/dist/exports/AppRegistry/index.js","./exports/AppState":"node_modules/react-native-web/dist/exports/AppState/index.js","./exports/BackHandler":"node_modules/react-native-web/dist/exports/BackHandler/index.js","./exports/Clipboard":"node_modules/react-native-web/dist/exports/Clipboard/index.js","./exports/DeviceInfo":"node_modules/react-native-web/dist/exports/DeviceInfo/index.js","./exports/Dimensions":"node_modules/react-native-web/dist/exports/Dimensions/index.js","./exports/Easing":"node_modules/react-native-web/dist/exports/Easing/index.js","./exports/I18nManager":"node_modules/react-native-web/dist/exports/I18nManager/index.js","./exports/Keyboard":"node_modules/react-native-web/dist/exports/Keyboard/index.js","./exports/InteractionManager":"node_modules/react-native-web/dist/exports/InteractionManager/index.js","./exports/LayoutAnimation":"node_modules/react-native-web/dist/exports/LayoutAnimation/index.js","./exports/Linking":"node_modules/react-native-web/dist/exports/Linking/index.js","./exports/NativeEventEmitter":"node_modules/react-native-web/dist/exports/NativeEventEmitter/index.js","./exports/PanResponder":"node_modules/react-native-web/dist/exports/PanResponder/index.js","./exports/PixelRatio":"node_modules/react-native-web/dist/exports/PixelRatio/index.js","./exports/Platform":"node_modules/react-native-web/dist/exports/Platform/index.js","./exports/Share":"node_modules/react-native-web/dist/exports/Share/index.js","./exports/StyleSheet":"node_modules/react-native-web/dist/exports/StyleSheet/index.js","./exports/UIManager":"node_modules/react-native-web/dist/exports/UIManager/index.js","./exports/Vibration":"node_modules/react-native-web/dist/exports/Vibration/index.js","./exports/ActivityIndicator":"node_modules/react-native-web/dist/exports/ActivityIndicator/index.js","./exports/Button":"node_modules/react-native-web/dist/exports/Button/index.js","./exports/CheckBox":"node_modules/react-native-web/dist/exports/CheckBox/index.js","./exports/FlatList":"node_modules/react-native-web/dist/exports/FlatList/index.js","./exports/Image":"node_modules/react-native-web/dist/exports/Image/index.js","./exports/ImageBackground":"node_modules/react-native-web/dist/exports/ImageBackground/index.js","./exports/KeyboardAvoidingView":"node_modules/react-native-web/dist/exports/KeyboardAvoidingView/index.js","./exports/Modal":"node_modules/react-native-web/dist/exports/Modal/index.js","./exports/Picker":"node_modules/react-native-web/dist/exports/Picker/index.js","./exports/ProgressBar":"node_modules/react-native-web/dist/exports/ProgressBar/index.js","./exports/RefreshControl":"node_modules/react-native-web/dist/exports/RefreshControl/index.js","./exports/SafeAreaView":"node_modules/react-native-web/dist/exports/SafeAreaView/index.js","./exports/ScrollView":"node_modules/react-native-web/dist/exports/ScrollView/index.js","./exports/SectionList":"node_modules/react-native-web/dist/exports/SectionList/index.js","./exports/StatusBar":"node_modules/react-native-web/dist/exports/StatusBar/index.js","./exports/Switch":"node_modules/react-native-web/dist/exports/Switch/index.js","./exports/Text":"node_modules/react-native-web/dist/exports/Text/index.js","./exports/TextInput":"node_modules/react-native-web/dist/exports/TextInput/index.js","./exports/Touchable":"node_modules/react-native-web/dist/exports/Touchable/index.js","./exports/TouchableHighlight":"node_modules/react-native-web/dist/exports/TouchableHighlight/index.js","./exports/TouchableNativeFeedback":"node_modules/react-native-web/dist/exports/TouchableNativeFeedback/index.js","./exports/TouchableOpacity":"node_modules/react-native-web/dist/exports/TouchableOpacity/index.js","./exports/TouchableWithoutFeedback":"node_modules/react-native-web/dist/exports/TouchableWithoutFeedback/index.js","./exports/View":"node_modules/react-native-web/dist/exports/View/index.js","./exports/VirtualizedList":"node_modules/react-native-web/dist/exports/VirtualizedList/index.js","./exports/YellowBox":"node_modules/react-native-web/dist/exports/YellowBox/index.js","./exports/DrawerLayoutAndroid":"node_modules/react-native-web/dist/exports/DrawerLayoutAndroid/index.js","./exports/InputAccessoryView":"node_modules/react-native-web/dist/exports/InputAccessoryView/index.js","./exports/TabBarIOS":"node_modules/react-native-web/dist/exports/TabBarIOS/index.js","./exports/ToastAndroid":"node_modules/react-native-web/dist/exports/ToastAndroid/index.js","./exports/PermissionsAndroid":"node_modules/react-native-web/dist/exports/PermissionsAndroid/index.js","./exports/Settings":"node_modules/react-native-web/dist/exports/Settings/index.js","./exports/Systrace":"node_modules/react-native-web/dist/exports/Systrace/index.js","./exports/TimePickerAndroid":"node_modules/react-native-web/dist/exports/TimePickerAndroid/index.js","./exports/TVEventHandler":"node_modules/react-native-web/dist/exports/TVEventHandler/index.js","./exports/DeviceEventEmitter":"node_modules/react-native-web/dist/exports/DeviceEventEmitter/index.js","./exports/useWindowDimensions":"node_modules/react-native-web/dist/exports/useWindowDimensions/index.js"}],"party.png":[function(require,module,exports) {
-module.exports = "/party.0a19b68a.png";
-},{}],"App.js":[function(require,module,exports) {
+},{"./exports/createElement":"node_modules/react-native-web/dist/exports/createElement/index.js","./exports/findNodeHandle":"node_modules/react-native-web/dist/exports/findNodeHandle/index.js","./exports/processColor":"node_modules/react-native-web/dist/exports/processColor/index.js","./exports/render":"node_modules/react-native-web/dist/exports/render/index.js","./exports/unmountComponentAtNode":"node_modules/react-native-web/dist/exports/unmountComponentAtNode/index.js","./exports/NativeModules":"node_modules/react-native-web/dist/exports/NativeModules/index.js","./exports/AccessibilityInfo":"node_modules/react-native-web/dist/exports/AccessibilityInfo/index.js","./exports/Alert":"node_modules/react-native-web/dist/exports/Alert/index.js","./exports/Animated":"node_modules/react-native-web/dist/exports/Animated/index.js","./exports/AppRegistry":"node_modules/react-native-web/dist/exports/AppRegistry/index.js","./exports/AppState":"node_modules/react-native-web/dist/exports/AppState/index.js","./exports/BackHandler":"node_modules/react-native-web/dist/exports/BackHandler/index.js","./exports/Clipboard":"node_modules/react-native-web/dist/exports/Clipboard/index.js","./exports/DeviceInfo":"node_modules/react-native-web/dist/exports/DeviceInfo/index.js","./exports/Dimensions":"node_modules/react-native-web/dist/exports/Dimensions/index.js","./exports/Easing":"node_modules/react-native-web/dist/exports/Easing/index.js","./exports/I18nManager":"node_modules/react-native-web/dist/exports/I18nManager/index.js","./exports/Keyboard":"node_modules/react-native-web/dist/exports/Keyboard/index.js","./exports/InteractionManager":"node_modules/react-native-web/dist/exports/InteractionManager/index.js","./exports/LayoutAnimation":"node_modules/react-native-web/dist/exports/LayoutAnimation/index.js","./exports/Linking":"node_modules/react-native-web/dist/exports/Linking/index.js","./exports/NativeEventEmitter":"node_modules/react-native-web/dist/exports/NativeEventEmitter/index.js","./exports/PanResponder":"node_modules/react-native-web/dist/exports/PanResponder/index.js","./exports/PixelRatio":"node_modules/react-native-web/dist/exports/PixelRatio/index.js","./exports/Platform":"node_modules/react-native-web/dist/exports/Platform/index.js","./exports/Share":"node_modules/react-native-web/dist/exports/Share/index.js","./exports/StyleSheet":"node_modules/react-native-web/dist/exports/StyleSheet/index.js","./exports/UIManager":"node_modules/react-native-web/dist/exports/UIManager/index.js","./exports/Vibration":"node_modules/react-native-web/dist/exports/Vibration/index.js","./exports/ActivityIndicator":"node_modules/react-native-web/dist/exports/ActivityIndicator/index.js","./exports/Button":"node_modules/react-native-web/dist/exports/Button/index.js","./exports/CheckBox":"node_modules/react-native-web/dist/exports/CheckBox/index.js","./exports/FlatList":"node_modules/react-native-web/dist/exports/FlatList/index.js","./exports/Image":"node_modules/react-native-web/dist/exports/Image/index.js","./exports/ImageBackground":"node_modules/react-native-web/dist/exports/ImageBackground/index.js","./exports/KeyboardAvoidingView":"node_modules/react-native-web/dist/exports/KeyboardAvoidingView/index.js","./exports/Modal":"node_modules/react-native-web/dist/exports/Modal/index.js","./exports/Picker":"node_modules/react-native-web/dist/exports/Picker/index.js","./exports/ProgressBar":"node_modules/react-native-web/dist/exports/ProgressBar/index.js","./exports/RefreshControl":"node_modules/react-native-web/dist/exports/RefreshControl/index.js","./exports/SafeAreaView":"node_modules/react-native-web/dist/exports/SafeAreaView/index.js","./exports/ScrollView":"node_modules/react-native-web/dist/exports/ScrollView/index.js","./exports/SectionList":"node_modules/react-native-web/dist/exports/SectionList/index.js","./exports/StatusBar":"node_modules/react-native-web/dist/exports/StatusBar/index.js","./exports/Switch":"node_modules/react-native-web/dist/exports/Switch/index.js","./exports/Text":"node_modules/react-native-web/dist/exports/Text/index.js","./exports/TextInput":"node_modules/react-native-web/dist/exports/TextInput/index.js","./exports/Touchable":"node_modules/react-native-web/dist/exports/Touchable/index.js","./exports/TouchableHighlight":"node_modules/react-native-web/dist/exports/TouchableHighlight/index.js","./exports/TouchableNativeFeedback":"node_modules/react-native-web/dist/exports/TouchableNativeFeedback/index.js","./exports/TouchableOpacity":"node_modules/react-native-web/dist/exports/TouchableOpacity/index.js","./exports/TouchableWithoutFeedback":"node_modules/react-native-web/dist/exports/TouchableWithoutFeedback/index.js","./exports/View":"node_modules/react-native-web/dist/exports/View/index.js","./exports/VirtualizedList":"node_modules/react-native-web/dist/exports/VirtualizedList/index.js","./exports/YellowBox":"node_modules/react-native-web/dist/exports/YellowBox/index.js","./exports/DrawerLayoutAndroid":"node_modules/react-native-web/dist/exports/DrawerLayoutAndroid/index.js","./exports/InputAccessoryView":"node_modules/react-native-web/dist/exports/InputAccessoryView/index.js","./exports/TabBarIOS":"node_modules/react-native-web/dist/exports/TabBarIOS/index.js","./exports/ToastAndroid":"node_modules/react-native-web/dist/exports/ToastAndroid/index.js","./exports/PermissionsAndroid":"node_modules/react-native-web/dist/exports/PermissionsAndroid/index.js","./exports/Settings":"node_modules/react-native-web/dist/exports/Settings/index.js","./exports/Systrace":"node_modules/react-native-web/dist/exports/Systrace/index.js","./exports/TimePickerAndroid":"node_modules/react-native-web/dist/exports/TimePickerAndroid/index.js","./exports/TVEventHandler":"node_modules/react-native-web/dist/exports/TVEventHandler/index.js","./exports/DeviceEventEmitter":"node_modules/react-native-web/dist/exports/DeviceEventEmitter/index.js","./exports/useWindowDimensions":"node_modules/react-native-web/dist/exports/useWindowDimensions/index.js"}],"src/components/HelloText.tsx":[function(require,module,exports) {
 "use strict";
+
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+var __importStar = this && this.__importStar || function (mod) {
+  if (mod && mod.__esModule) return mod;
+  var result = {};
+  if (mod != null) for (var k in mod) {
+    if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
+  }
+  result["default"] = mod;
+  return result;
+};
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.default = void 0;
 
-var _react = _interopRequireWildcard(require("react"));
+var react_1 = __importStar(require("react"));
 
-var _reactNative = require("react-native");
+var react_native_1 = require("react-native");
 
-function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
+exports.HelloText = function (props) {
+  var _react_1$useState = react_1.useState(props.color),
+      _react_1$useState2 = _slicedToArray(_react_1$useState, 2),
+      color = _react_1$useState2[0],
+      setColor = _react_1$useState2[1];
 
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+  react_1.useEffect(function () {
+    setColor(props.color);
+  });
+  return react_1.default.createElement(react_native_1.Text, {
+    style: {
+      color: color
+    }
+  }, props.text);
+};
+},{"react":"node_modules/react/index.js","react-native":"node_modules/react-native-web/dist/index.js"}],"party.png":[function(require,module,exports) {
+module.exports = "/party.0a19b68a.png";
+},{}],"App.tsx":[function(require,module,exports) {
+"use strict";
+/**
+ * Sample React Native App
+ * https://github.com/facebook/react-native
+ *
+ * @format
+ * @flow strict-local
+ */
 
-function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
 
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
 
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
 
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
 
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
 
-function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
-function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+var __importStar = this && this.__importStar || function (mod) {
+  if (mod && mod.__esModule) return mod;
+  var result = {};
+  if (mod != null) for (var k in mod) {
+    if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
+  }
+  result["default"] = mod;
+  return result;
+};
 
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
 
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+var react_1 = __importStar(require("react"));
 
-function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+var react_native_1 = require("react-native");
 
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+var HelloText_1 = require("./src/components/HelloText");
 
-var message = _reactNative.Platform.select({
+var message = react_native_1.Platform.select({
   android: 'Une application Android conçue avec React Native',
   ios: 'Une application iOS conçue avec React Native',
   web: 'Une application Web conçue avec React Native Web'
 });
 
-var App = /*#__PURE__*/function (_Component) {
-  _inherits(App, _Component);
+var App = function App() {
+  var _react_1$useState = react_1.useState(0),
+      _react_1$useState2 = _slicedToArray(_react_1$useState, 2),
+      t = _react_1$useState2[0],
+      setT = _react_1$useState2[1];
 
-  var _super = _createSuper(App);
+  react_1.useEffect(function () {
+    //setInterval(() => setT(state => ({ t: state.t + 0.1 })), 1000 / 60);
+    setInterval(function () {
+      return setT(t + 0.1);
+    }, 1000 / 60);
+  });
+  var translateY = Math.sin(t) * 15;
+  var opacity = (Math.sin(t / 2) + 1) / 2;
+  return react_1.default.createElement(react_native_1.View, {
+    style: styles.container
+  }, react_1.default.createElement(HelloText_1.HelloText, {
+    text: "Open up App.tsx to start working on your app!",
+    color: "#000"
+  }), react_1.default.createElement(react_native_1.Image, {
+    source: require('./party.png'),
+    style: [styles.image, {
+      transform: [{
+        translateY: translateY
+      }]
+    }]
+  }), react_1.default.createElement(react_native_1.Text, {
+    style: [styles.text, {
+      opacity: opacity
+    }]
+  }, message));
+};
 
-  function App() {
-    var _this;
-
-    _classCallCheck(this, App);
-
-    _this = _super.call(this);
-    _this.state = {
-      t: 0
-    };
-    return _this;
-  }
-
-  _createClass(App, [{
-    key: "componentDidMount",
-    value: function componentDidMount() {
-      var _this2 = this;
-
-      setInterval(function () {
-        return _this2.setState(function (state) {
-          return {
-            t: state.t + 0.1
-          };
-        });
-      }, 1000 / 60);
-    }
-  }, {
-    key: "render",
-    value: function render() {
-      var translateY = Math.sin(this.state.t) * 15;
-      var opacity = (Math.sin(this.state.t / 2) + 1) / 2;
-      return /*#__PURE__*/_react.default.createElement(_reactNative.View, {
-        style: styles.container
-      }, /*#__PURE__*/_react.default.createElement(_reactNative.Image, {
-        source: require('./party.png'),
-        style: [styles.image, {
-          transform: [{
-            translateY: translateY
-          }]
-        }]
-      }), /*#__PURE__*/_react.default.createElement(_reactNative.Text, {
-        style: [styles.text, {
-          opacity: opacity
-        }]
-      }, message));
-    }
-  }]);
-
-  return App;
-}(_react.Component);
-
-exports.default = App;
-
-var styles = _reactNative.StyleSheet.create({
+var styles = react_native_1.StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
@@ -58093,7 +58121,8 @@ var styles = _reactNative.StyleSheet.create({
     height: 80
   }
 });
-},{"react":"node_modules/react/index.js","react-native":"node_modules/react-native-web/dist/index.js","./party.png":"party.png"}],"app.json":[function(require,module,exports) {
+exports.default = App;
+},{"react":"node_modules/react/index.js","react-native":"node_modules/react-native-web/dist/index.js","./src/components/HelloText":"src/components/HelloText.tsx","./party.png":"party.png"}],"app.json":[function(require,module,exports) {
 module.exports = {
   "name": "TheNewProject",
   "displayName": "TheNewProject"
@@ -58120,10 +58149,11 @@ _reactNative.AppRegistry.registerComponent(_app.name, function () {
 
 if (_reactNative.Platform.OS === 'web') {
   _reactNative.AppRegistry.runApplication(_app.name, {
+    initialProps: {},
     rootTag: document.getElementById('main')
   });
 }
-},{"react-native":"node_modules/react-native-web/dist/index.js","./App":"App.js","./app.json":"app.json"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"react-native":"node_modules/react-native-web/dist/index.js","./App":"App.tsx","./app.json":"app.json"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -58151,7 +58181,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60158" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52605" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

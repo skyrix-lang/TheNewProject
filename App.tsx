@@ -6,8 +6,9 @@
  * @flow strict-local
  */
 
-import React, { Component } from 'react';
-import { Image, Platform, StyleSheet, Text, View } from 'react-native';
+import React, {FunctionComponent, useEffect, useState} from 'react';
+import {Image, Platform, StyleSheet, Text, View} from 'react-native';
+import {HelloText} from './src/components/HelloText';
 
 const message = Platform.select({
   android: 'Une application Android conçue avec React Native',
@@ -15,24 +16,25 @@ const message = Platform.select({
   web: 'Une application Web conçue avec React Native Web',
 });
 
-export default class App extends Component {
-  constructor() {
-    super();
-    this.state = { t: 0 };
-  }
+const App: FunctionComponent = () => {
+  const [t, setT] = useState(0);
 
-  componentDidMount() {
+  useEffect(() => {
+    //setInterval(() => setT(state => ({ t: state.t + 0.1 })), 1000 / 60);
     setInterval(
-        () => this.setState(state => ({ t: state.t + 0.1 })),
+        () => setT(t + 0.1 ),
         1000 / 60
     );
-  }
+  });
 
-  render() {
-    const translateY = Math.sin(this.state.t) * 15;
-    const opacity = (Math.sin(this.state.t / 2) + 1) / 2;
+    const translateY = Math.sin(t) * 15;
+    const opacity = (Math.sin(t / 2) + 1) / 2;
     return (
         <View style={styles.container}>
+          <HelloText
+              text="Open up App.tsx to start working on your app!"
+              color="#000"
+          />
           <Image
               source={require('./party.png')}
               style={[styles.image, { transform: [{ translateY }] }]}
@@ -40,7 +42,6 @@ export default class App extends Component {
           <Text style={[styles.text, { opacity }]}>{message}</Text>
         </View>
     );
-  }
 }
 
 const styles = StyleSheet.create({
@@ -61,3 +62,5 @@ const styles = StyleSheet.create({
     height: 80,
   },
 });
+
+export default App;
